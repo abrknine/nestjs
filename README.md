@@ -58,6 +58,22 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Extras->updatedbyabhi
+
+```bash
+# to genrate new module->a module contain controller,provider
+$ nest genrate module  modulename
+
+# to genrate controller in module // this has class which containe request and routenames
+$ nest g controller modulename
+
+# to genrate service(provider) in module ->this has class which has method of buisness logic
+$ nest g service modulename
+
+# to genrate module and controller,service inside it at once
+$ nest g resource modulename
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
